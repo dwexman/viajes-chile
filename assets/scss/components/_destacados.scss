@@ -1,0 +1,46 @@
+#destacados {
+    background-color: #454d55;
+    color: #ffffff;
+    padding: 60px 0;
+  
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.5em;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+    }
+  
+    .card {
+      background: #454d55;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+  
+      .card-img-top {
+        border-radius: 0;
+        height: 200px;
+        object-fit: cover;
+      }
+  
+      .card-body {
+        padding: 20px;
+      }
+  
+      .card-title {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+      }
+  
+      .card-text {
+        margin-bottom: 10px;
+      }
+  
+      p {
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+    }
+  }
+  

@@ -1,0 +1,12 @@
+@import 'base/variables';
+@import 'components/navbar';
+@import 'components/carousel';
+@import 'components/quienes-somos';
+@import 'components/destacados';
+@import 'components/testimonios';
+@import 'components/contacto';
+
+body, html {
+    background-color: #454d55;
+    color: #ffffff;
+  }
